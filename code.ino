@@ -1,0 +1,75 @@
+#include <AccelStepper.h>
+#include <Servo.h>
+
+Servo myServo;
+
+
+
+
+#define x_stepper_pin 1
+#define x_stepper_dir_pin 2
+#define y_stepper_pin 2
+#define y_stepper_dir_pin 2
+#define x_limit_pin_start 3
+#define y_limit_pin_start 4
+#define x_limit_pin_end 3
+#define y_limit_pin_end 4
+#define servo_pin 5
+
+AccelStepper x_stepper(INTERFACE_TYPE, y_stepper_pin, x_stepper_dir_pin);
+AccelStepper y_stepper(INTERFACE_TYPE, y_stepper_pin, y_stepper_dir_pin);
+
+bool resetted_x_axis == false
+x_len_step = 0;
+y_len_step = 0;
+setted_up = false;
+
+void setup() {
+
+pinMode(x_stepper_pin, OUTPUT);
+pinMode(y_stepper_pin, OUTPUT);
+pinMode(x_stepper_dir_pin, OUTPUT);
+pinMode(y_stepper_dir_pin, OUTPUT);
+
+
+pinMode(x_limit_pin, INPUT_PULLUP);
+pinMode(y_limit_pin, INPUT_PULLUP);
+
+x_stepper.setMaxSpeed(1000);      
+x_stepper.setAcceleration(500);
+
+myServo.attach(servo_pin);
+    
+}
+
+
+void loop() {
+    if(setted_up == false){
+
+    // x axis setup
+    x_stepper.moveTo(-100000);
+    while (x_limit_pin_start == HIGH){
+        x_stepper.run();
+    }
+
+    x_stepper.stop();
+    x_stepper.setCurrentPosition(0);
+
+    // y axis setup
+    y_stepper.moveTO(-10000);
+    while (y_limit_pin_start == HIGH){
+        x_stepper.run();
+    }
+    y_stepper.stop(); 
+    y_stepper.setCurrentPosition(0);
+
+
+     // board Measuring
+
+
+     while (x_limit_pin_end == HIGH){
+
+     }
+
+}
+}
