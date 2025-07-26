@@ -66,10 +66,17 @@ void loop() {
 
      // board Measuring
 
+    x_stepper.moveTO(100000)
+    while (x_limit_pin_end == HIGH){
+    x_stepper.run();
+    }
+    x_len_step = x_stepper.currentPosition()
 
-     while (x_limit_pin_end == HIGH){
-
-     }
-
+     
+    y_stepper.moveTO(100000)
+    while (y_limit_pin_end == HIGH){
+    y_stepper.run();
+    }
+    y_len_step = y_stepper.currentPosition()
 }
 }
