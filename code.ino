@@ -16,13 +16,44 @@ Servo myServo;
 #define y_limit_pin_end 4
 #define servo_pin 5
 #define INTERFACE_TYPE 1
+#define x_units 5
+#define y_units 3
+
+
 
 AccelStepper x_stepper(INTERFACE_TYPE, x_stepper_pin, x_stepper_dir_pin);
-AccelStepper y_stepper(INTERFACE_TYPE, y_stepper_pin, y_stepper_dir_pin);
+AccelStepper y_stepper(INTERFACE_TYPE, y_stepper_pin, y_stepper_dir_pin );
 
 long x_len_step = 0;
 long y_len_step = 0;
 bool setted_up = false;
+
+
+
+void pick(int x, int y){
+    long desired_x = (x_len_step / x_units) * x;
+    long desired_y = (y_len_step / y_units) * y;
+
+    x_stepper.moveTo(desired_x);
+    y_stepper.moveTo(desired_y);
+
+    while (x_stepper.distanceToGo() != 0 || y_stepper.distanceToGo() != 0){
+        x_stepper.run();
+        y_stepper.run();
+    };
+    
+
+}
+
+
+
+
+
+
+
+
+
+
 
 void setup() {
 
@@ -87,5 +118,12 @@ void loop() {
     y_len_step = y_stepper.currentPosition();
 
     setted_up = true;
-    }
+    
+
+
+
+
+
+
+
 }
