@@ -27,7 +27,7 @@ AccelStepper y_stepper(INTERFACE_TYPE, y_stepper_pin, y_stepper_dir_pin );
 long x_len_step = 0;
 long y_len_step = 0;
 bool setted_up = false;
-
+String coordinates = "";
 
 
 void pick(int x, int y){
@@ -110,7 +110,7 @@ void pick(int x, int y){
 
 
 void setup() {
-
+Serial.begin(9600);
 pinMode(x_stepper_pin, OUTPUT);
 pinMode(y_stepper_pin, OUTPUT);
 pinMode(x_stepper_dir_pin, OUTPUT);
