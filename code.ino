@@ -31,7 +31,10 @@ bool setted_up = false;
 
 
 void pick(int x, int y){
-    long  u_dimensions = (y_len_step / y_units) * y 
+    
+
+
+    long  u_dimensions = (y_len_step / y_units) * y ;
     long desired_x = (x_len_step * 10 / x_units * 13) * x - ((x_len_step * 10 / x_units * 13) / 2);
     long desired_y = (y_len_step / y_units) * y - (y_len_step / y_units / 2);
 
@@ -42,16 +45,58 @@ void pick(int x, int y){
         x_stepper.run();
         y_stepper.run();
     };
-    y_stepper.moveTo((u_dimensions * 30,085) / 100 );
-    x_stepper.moveTo((u_dimensions * 30,61) / 100 );
+    y_stepper.moveTo((u_dimensions * 30.085) / 100 );
+    x_stepper.moveTo((u_dimensions * 30.61) / 100 );
     while (x_stepper.distanceToGo() != 0 || y_stepper.distanceToGo() != 0){
         x_stepper.run();
         y_stepper.run();
     };
-    y_stepper.moveTo(-(u_dimensions * 11,99) / 100 );
+    y_stepper.moveTo(-(u_dimensions * 11.99) / 100 );
      while (y_stepper.distanceToGo() != 0){
         y_stepper.run();
     };
+    y_stepper.moveTo(-(u_dimensions * 1) / 100 );
+     while (y_stepper.distanceToGo() != 0){
+        y_stepper.run();
+    };
+    myServo.write(90);
+    y_stepper.moveTo((u_dimensions * 12.99) / 100 );
+     while (y_stepper.distanceToGo() != 0){
+        y_stepper.run();
+    };
+    myServo.write(0);
+
+    long picking_zone_x = (x_len_step * 10 / x_units * 13) * x_units - ((x_len_step * 10 / x_units * 13) / 2);
+    long picking_zone_y = (y_len_step / y_units) * y_units - (y_len_step / y_units / 2);
+
+    x_stepper.moveTo(picking_zone_x);
+    y_stepper.moveTo(picking_zone_y);
+
+    while (x_stepper.distanceToGo() != 0 || y_stepper.distanceToGo() != 0){
+        x_stepper.run();
+        y_stepper.run();
+    };
+
+    y_stepper.moveTo((u_dimensions * 30.085) / 100 );
+    x_stepper.moveTo((u_dimensions * 30.61) / 100 );
+    while (x_stepper.distanceToGo() != 0 || y_stepper.distanceToGo() != 0){
+        x_stepper.run();
+        y_stepper.run();
+    };
+    y_stepper.moveTo(-(u_dimensions * 11.99) / 100 );
+     while (y_stepper.distanceToGo() != 0){
+        y_stepper.run();
+    };
+    y_stepper.moveTo(-(u_dimensions * 1) / 100 );
+    while (y_stepper.distanceToGo() != 0){
+        y_stepper.run();
+    };
+    myServo.write(90);
+    y_stepper.moveTo(-(u_dimensions * 1) / 100 );
+    while (y_stepper.distanceToGo() != 0){
+        y_stepper.run();
+    };
+    myServo.write(0);
 }
 
 
