@@ -181,4 +181,47 @@ void loop() {
 
 
 }
+
+
+if (Serial.available() > 0) {
+  char c = Serial.read();
+    if (c == '\n') {
+  received_x = get_x(coordinates);
+  received_y = get_y(coordinates);
+      pick(received_x, received_y); 
+      coordinates= ""; 
+    } else {
+    coordinates += c;  
+  }
+
+
+
 }}
+
+void get_x(String input){
+    int commaIndex = input.indexOf(',');
+
+   if (commaIndex != -1) {
+    String output_x = input.substring(0, commaIndex);
+
+
+    int x = output_x.toInt();
+
+    return output_x;
+
+   }
+}
+void get_x(String input){
+    int commaIndex = input.indexOf(',');
+
+   if (commaIndex != -1) {
+    String output_x = input.substring(0, commaIndex);
+
+
+    int output_x = output_x.toInt();
+
+    return output_x;
+
+
+}
+}
