@@ -31,8 +31,8 @@ bool setted_up = false;
 
 
 void pick(int x, int y){
-    long desired_x = (x_len_step / x_units) * x;
-    long desired_y = (y_len_step / y_units) * y;
+    long desired_x = (x_len_step * 10 / x_units * 13) * x - ((x_len_step * 10 / x_units * 13) / 2);
+    long desired_y = (y_len_step / y_units) * y - (y_len_step / y_units / 2);
 
     x_stepper.moveTo(desired_x);
     y_stepper.moveTo(desired_y);
@@ -127,3 +127,4 @@ void loop() {
 
 
 }
+}}
