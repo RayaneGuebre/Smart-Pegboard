@@ -19,7 +19,7 @@ i don't know how many days i forgot to log but here i am, today i almost finishe
 <img width="1363" height="634" alt="Screenshot 2025-07-26 23 54 14" src="https://github.com/user-attachments/assets/fcc18af0-108f-40a5-9d1e-5263ef2f1a10" />
 
 ##30 / 07
-so, today i added the magnets to the "units" (i still don't know how to call them), i'm gonna try with some small ones and see if they works, then i also added the two board, the arduino and the rasberry pi 5 ( i may change it to a zero 2w to reduce the cost if needed) using a standoff, heat inserts and screws, i also make space to insert the stepper motor horiwontaly so there is no need to print two separates parts and u can simply slide it in, i also made it a little smaller to have a bit on the rail. and i started preparing the bom, tomorrow i'm gonna turn it into a csv file and then if everything oges on well ship it to highsea
+so, today i added the magnets to the "units" (i still don't know how to call them), i'm gonna try with some small ones and see if they works, then i also added the two board, the arduino and the rasberry pi 5 ( i may change it to a zero 2w to reduce the cost if needed) using a standoff, heat inserts and screws, i also make space to insert the stepper motor horiwontaly so there is no need to print two separates parts and u can simply slide it in, i also made it a little smaller to have a bit on the rail. and i started preparing the bom, tomorrow i'm gonna turn it into a csv file, i'm also gonna improve this journal through the various saves i have on fusion360 and then if everything goes on well ship it to highsea
 
 BOM, Research, Designing : 8h
 
