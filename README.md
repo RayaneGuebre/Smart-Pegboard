@@ -13,7 +13,8 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/RayaneGuebre/Smart-Pegboard/blob/main/image.png" alt="Schematic image">
+  <img width="545" height="351" alt="Screenshot 2025-07-31 20 26 10" src="https://github.com/user-attachments/assets/6b77132e-96d2-4b8a-a401-96547e4d8046" />
+
 </p>
 
 
