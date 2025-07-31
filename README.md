@@ -25,3 +25,5 @@ so, i had a very cool idea, for when i'm going to have a garage i want it to be 
 <img width="450" height="312" alt="Screenshot 2025-07-31 17 43 04" src="https://github.com/user-attachments/assets/7df2f336-cadd-479c-bb08-80da65a67417" />
 
 
+## Wiring
+<img width="516" height="370" alt="image" src="https://github.com/user-attachments/assets/651ba7e7-b5a0-4357-b00a-e6f5f8620804" />
