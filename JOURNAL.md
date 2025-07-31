@@ -1,4 +1,4 @@
- Guess what? I forgot to start the journal AGAIN, and so now I'm kinda late but still better late than never :D
+  Guess what? I forgot to start the journal AGAIN, and so now I'm kinda late but still better late than never :D
 
 Dear Future Highway reviewer, please have some mercy on me, I just have a seriously terrible memory.
  
@@ -74,14 +74,16 @@ coding: 6h
 ## 28 / 07
 today i added the t-slot nuts to the design, i decided to skip the screws since i couldn't find the same model i was using
 <img width="409" height="291" alt="image" src="https://github.com/user-attachments/assets/ba3e7baa-9830-4415-af17-ba2fcabd5659" />
+Designing: 30m
+## 29 / 07
 
-
+today i almost finished the designg, i added the upport for the limit switch that are gonna get screwed in with M2.5 screws, i've already added the holes for the heat inserts o it's easier to screw them in 
+<img width="49" height="45" alt="image" src="https://github.com/user-attachments/assets/27d72e17-05a0-408f-8d37-326a6d45633c" />
+Designing: 1h
 ## 30 / 07
 so, today i added the magnets to the "units" (i still don't know how to call them), i'm gonna try with some small ones and see if they works, then i also added the two board, the arduino and the rasberry pi 5 ( i may change it to a zero 2w to reduce the cost if needed) using a standoff, heat inserts and screws, i also make space to insert the stepper motor horiwontaly so there is no need to print two separates parts and u can simply slide it in, i also made it a little smaller to have a bit on the rail. and i started preparing the bom, tomorrow i'm gonna turn it into a csv file, i'm also gonna improve this journal through the various saves i have on fusion360 and then if everything goes on well ship it to highsea
 
-BOM, Research, Designing : 8h
-
-
+BOM, Research, Designing: 8h
 <img width="663" height="178" alt="Screenshot 2025-07-31 00 25 12" src="https://github.com/user-attachments/assets/4796b22c-5a45-450e-9869-f2371adcb425" />
 <img width="558" height="306" alt="Screenshot 2025-07-31 00 23 09" src="https://github.com/user-attachments/assets/44a8b617-a6ee-4347-8d8b-6bdb6fb734b2" />
 <img width="711" height="381" alt="Screenshot 2025-07-31 00 22 53" src="https://github.com/user-attachments/assets/5ec6acc1-2248-45fb-8f4c-34089101b395" />
