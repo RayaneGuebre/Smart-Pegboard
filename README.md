@@ -18,10 +18,10 @@
 </p>
 
 
-
-Last month, while walking, i noticed a wall that would have been beautiful with some climbing plants, and there were some, but the only problem was that almost all the plants seemed completely dry. and while thinking about that wall i had the idea for this project, after a month of designing and exams i finally finished it
+so, i had a very cool idea, for when i'm going to have a garage i want it to be like the one that tony starks have, very techy, so one idea i had was to make a robotic arm that bring me the tools i need, i alreayd made a jarvis like assistant a while ago, and i'm already planning to make this robotic arm, but first i need to make it easier for this robotic arm to bring me the tools, so i decided to make thi pegboard, that moves around my tools so it's easier for me, and the robot to have what we need, the mechanism is inspired by the one in corexy 3d printers, i learned to design it while designing my personal 3d printer that sadly has never been built :( . But at least i learn a lot from making that project, and I've been able to apply the knowledge i learnt into this project.
 
 
 ## BOM
+<img width="450" height="312" alt="Screenshot 2025-07-31 17 43 04" src="https://github.com/user-attachments/assets/7df2f336-cadd-479c-bb08-80da65a67417" />
 
 
