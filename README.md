@@ -22,7 +22,8 @@ so, i had a very cool idea, for when i'm going to have a garage i want it to be 
 
 
 ## BOM
-<img width="417" height="380" alt="image" src="https://github.com/user-attachments/assets/595138e7-c3d6-40d8-a95d-3171809247a7" />
+<img width="406" height="391" alt="image" src="https://github.com/user-attachments/assets/08fcec67-ec57-4369-bc0e-5c29a2eb98a5" />
+
 
 
 
