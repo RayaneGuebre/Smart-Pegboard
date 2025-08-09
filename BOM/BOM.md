@@ -27,5 +27,6 @@
 |M2.5 standoffs                      | � 2,69  |1    |      |      |Aliexpress|       |� 2	69  |
 |Soldering iron tips for heat inserts| � 2,83  |1    |      |      |Aliexpress|       |� 2	83  |
 |Cable ties                          | � 1,90  |1    |      |      |Aliexpress|       |� 1	90  |
-|Shipping                            | � 17,49 |1    |      |      |Aliexpress|       |� 17	49 |
+|3d parts Shipping                            | � 17,49 |1    |      |      |Aliexpress|       |� 17	49 |
+
 
