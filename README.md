@@ -23,7 +23,8 @@ so, i had a very cool idea, for when i'm going to have a garage i want it to be 
 
 ## BOM
 <img width="419" height="395" alt="Screenshot 2025-08-10 14 51 29" src="https://github.com/user-attachments/assets/9b059f09-f495-4385-a3eb-e84b9dd12399" />
-(BOM link)[https://diccollegeliege-my.sharepoint.com/:x:/g/personal/guebnadi_dic-college_be/EUxxRNZfUEBLiZhDYq0WSCQBuyUPX0JCSPzBvWkPI9wqSA?e=Keeoe4]
+
+[BOM link](https://diccollegeliege-my.sharepoint.com/:x:/g/personal/guebnadi_dic-college_be/EUxxRNZfUEBLiZhDYq0WSCQBuyUPX0JCSPzBvWkPI9wqSA?e=Keeoe4)
 
 
 
